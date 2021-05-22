@@ -74,7 +74,7 @@ const DateBar = ({day,month,year,date}) => {
                 <View style={{flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
                     <Text  style={{fontSize:12,textAlign:'center',color:'white'}}>
                         {
-                            day
+                            date
                         }
                     </Text>
                     <Text  style={{fontSize:12,textAlign:'center',color:'white',marginHorizontal:5}}>

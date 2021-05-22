@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Meal-App-",
+    "name": "BlueZ Calendar",
     "slug": "Meal-App-",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/group.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/group.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#303f78"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +21,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/group.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon1.png"
     }
   }
 }

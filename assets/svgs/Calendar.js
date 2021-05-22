@@ -2,14 +2,14 @@ import * as React from "react";
 import Svg, { Path,G,Text, TSpan } from "react-native-svg";
 
 
-function Calendar(props) {
+function Calendar({day,style}) {
   return (
     <Svg
       xmlns="http://www.w3.org/2000/svg"
       width={70}
       height={70}
       viewBox="0 0 447 535"
-      {...props}
+      style={style}
     >
       <G data-name="Group 4">
         <Path
@@ -70,9 +70,12 @@ function Calendar(props) {
           fontFamily="b-yekan"
           letterSpacing=".08em"
           fontWeight="bold"
+          textAlign='center'
         >
-          <TSpan x={0} y={0}>
-            {"22"}
+          <TSpan  x={0} y={0}>
+            {
+              day <=10  ?  ' '+day : day
+            }
           </TSpan>
         </Text>
       </G>
